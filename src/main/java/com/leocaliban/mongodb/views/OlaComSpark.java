@@ -1,11 +1,20 @@
 package com.leocaliban.mongodb.views;
 
+import spark.Request;
+import spark.Response;
+import spark.Route;
 import spark.Spark;
 
 public class OlaComSpark {
 
 	public static void main(String[] args) {
-		Spark.get("/", (request,response) -> "Olá SPARK!!!"); {
-		}
+		Spark.get("/", new Route() {
+
+			@Override
+			public Object handle(Request arg0, Response arg1){
+				return "Olá com SPARK!!!";
+			}
+			
+		});
 	}
 }
