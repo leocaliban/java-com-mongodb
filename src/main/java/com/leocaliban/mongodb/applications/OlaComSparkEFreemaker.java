@@ -1,4 +1,4 @@
-package com.leocaliban.mongodb.views;
+package com.leocaliban.mongodb.applications;
 
 import java.io.StringWriter;
 import java.util.HashMap;

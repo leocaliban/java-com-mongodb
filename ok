@@ -1,0 +1,35 @@
+[33mcommit 916f9768b56cdd5cea8ee91f07498db7f26fb596[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Leocaliban <leocaliban@gmail.com>
+Date:   Fri Jan 12 22:46:17 2018 -0300
+
+    Ilustra requisições GET com Spark
+
+[33mcommit f2d5e487449c047a22a55d1648f27290338d3107[m
+Author: Leocaliban <leocaliban@gmail.com>
+Date:   Fri Jan 12 01:27:10 2018 -0300
+
+    Aplica a integração do Stark com Freemarker
+
+[33mcommit 2a1e5712558be353358ab629dd4eb6abbaa02107[m
+Author: Leocaliban <leocaliban@gmail.com>
+Date:   Fri Jan 12 01:16:36 2018 -0300
+
+    Ajustes no Spark
+
+[33mcommit 31e53ea05ff85f4d9c6f762e2e447fd58919f324[m
+Author: Leocaliban <leocaliban@gmail.com>
+Date:   Fri Jan 12 00:55:38 2018 -0300
+
+    Aplica o Freemarker
+
+[33mcommit ffba32f8e31cdd0771cd594c0cd0c1c876e7b820[m
+Author: Leocaliban <leocaliban@gmail.com>
+Date:   Fri Jan 12 00:01:58 2018 -0300
+
+    Aplica Spark no projeto
+
+[33mcommit 7b0c250b2ee89bf86ba9574a6c33f44c9dcf0b00[m
+Author: Leocaliban <leocaliban@gmail.com>
+Date:   Thu Jan 11 23:16:54 2018 -0300
+
+    Cria projeto
