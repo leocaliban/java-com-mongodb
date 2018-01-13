@@ -11,10 +11,31 @@ public class OlaComSpark {
 		Spark.get("/", new Route() {
 
 			@Override
-			public Object handle(Request arg0, Response arg1){
+			public Object handle(Request request, Response response){
+				return "Página inicial";
+			}
+			
+		});
+		
+		Spark.get("/ola", new Route() {
+
+			@Override
+			public Object handle(Request request, Response response){
 				return "Olá com SPARK!!!";
 			}
 			
 		});
+		
+		//-thing será o retorno da requisição que será atribuido na url
+		Spark.get("/echo/:thing", new Route() {
+
+			@Override
+			public Object handle(Request request, Response response){
+				return request.params(":thing");
+			}
+			
+		});
 	}
+	
+	
 }
