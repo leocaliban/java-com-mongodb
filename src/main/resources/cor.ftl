@@ -1,6 +1,6 @@
 <html>
 	<head>
-	  <title>Escoha A Cor</title>
+	  <title>Escolha A Cor</title>
 	</head>
 	<body>
 	  <form action="/cor-favorita" method="POST">
