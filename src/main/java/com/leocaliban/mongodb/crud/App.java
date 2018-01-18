@@ -1,4 +1,4 @@
-package com.leocaliban.mongodb;
+package com.leocaliban.mongodb.crud;
 
 import org.bson.BsonDocument;
 
