@@ -21,6 +21,7 @@ public class InsertTest {
 							.append("idade", 37)
 							.append("profissao", "Ator");
 		
+		//collection.insertMany(asList(pessoa1, pessoa2));
 		collection.insertOne(pessoa);
 
 		printJson(pessoa);
